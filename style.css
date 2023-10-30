@@ -1,0 +1,327 @@
+body {
+    margin: 0px;
+    font-size: 24px;
+}
+
+@media (max-width: 1000px)
+{
+    body {
+        font-size: 16px;
+    }
+}
+
+
+h1 {
+    text-decoration: underline;
+    text-decoration-color: #E4002B;
+    color: #012169;
+    font-size: 3rem;
+    text-align: center;
+    margin: 8px;
+}
+
+.header {
+    background-color: #012169;
+    display: flex;
+    text-align: center;
+}
+
+.header img {
+    max-width: 80%;
+}
+
+@media (max-width: 1000px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+}
+
+.navbar {
+    background-color: #E4002B;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 6px 24px;
+    font-size: 1.5rem;
+    transition: 0.3s;
+}
+
+@media (max-width: 1000px)
+{
+    .navbar {
+        flex-wrap: wrap;
+    }
+
+    .navbar a{
+        min-width: 90vw;
+    }
+}
+
+.navbar a:hover {
+    color: #012169;
+}
+
+.featured_opinions {
+    display: block;
+    text-align: center;
+    color: #012169;
+    font-size: 2rem;
+}
+
+.featured_opinions a {
+    text-decoration: none;
+}
+
+.featured_opinion {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: end;
+    min-height: 35vw;
+    justify-content: space-between;
+    text-decoration: none;
+    margin-bottom: 12px;
+}
+
+.featured_opinion h1 {
+    
+    color: white;
+    max-width: 60%;
+    margin-right: 12px;
+    margin-left: auto;
+    font-size: 3rem;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    text-decoration: none;
+    text-align: end;
+}
+
+@media (max-width: 1000px) {
+    .featured_opinion {
+        min-width: 90vw;
+        min-height: 55vw;
+    }
+
+    .featured_opinion h1 {
+        font-size: 1.7rem;
+        max-width: 70%;
+    }
+}
+
+.danny {
+    background-image: url("/branding/attack_dog_blank.JPG");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.dog {
+    background-image: url("/branding/dog_blank.JPG");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.featured_opinion {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+  
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+
+.slideshow_selector {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #012169;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+  
+.active {
+    background-color: #E4002B;
+}
+
+.previous-comic, .next-comic {
+    background-color: #012169;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 4px 60px;
+    font-size: 2rem;
+    transition: 0.3s;
+}
+
+.previous-comic:hover, .next-comic:hover {
+    background-color: #E4002B;
+}
+
+.previous-comic:active, .next-comic:active {
+    background-color: #8d001a;
+}
+
+@media (max-width: 1000px) {
+    .previous-comic, .next-comic {
+        padding: 4px 24px;
+    }
+}
+
+.slideshow_buttons p {
+    margin-left: 2%;
+    margin-right: 2%;
+    display: inline-block;
+    background-color: white;
+    font-size: 1rem;
+}
+
+.about_me h1 {
+    text-decoration: underline;
+    text-decoration-color: #E4002B;
+    color: #012169;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.about-me-contents {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: justify;
+}
+
+.about-me-contents img {
+    width: 40%;
+    padding: 20px 2vw;
+}
+
+.about-me-contents a {
+    width: 40%;
+    padding: 1vw;
+    margin: 1vw;
+    background-color: #012169;
+    color: white;
+    font-size: 2rem;
+    line-height: 1.5;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+.about-me-contents a p {
+    margin: 2px;
+}
+
+@media (max-width: 1000px) {
+    .about-me-contents {
+        flex-wrap: wrap;
+    }
+
+    .about-me-contents a{
+        min-width: 90vw;
+        text-align: left;
+    }
+
+    .about-me-contents img {
+        min-width: 90vw;
+    }
+}
+
+.latest-opinions {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.opinion {
+    max-width: 20vw;
+    padding: 12px;   
+}
+
+.opinion a {
+    color: #012169;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.opinion a:hover {
+    color: #E4002B;
+}
+
+.opinion h2 {
+    font-size: 1.5rem;
+}
+
+@media (max-width: 1000px) {
+    .opinion {
+        max-width: 90vw;
+    }
+}
+
+.article {
+    color: #012169;
+    max-width: 90vw;
+    display: block;
+    margin: 0 auto;
+}
+
+.article h1{
+    margin-top: 12px;
+    text-decoration: none;
+}
+
+.article h3 {
+    text-align: end;
+}
+
+.article a {
+    text-decoration: none;
+    color: #8d001a;
+}
+
+@media (max-width: 1000px)
+{
+    .article h1 {
+        font-size: 2rem;
+    }
+
+    .article h2 {
+        font-size: 1.2rem;
+    }
+
+    .article p {
+        font-size: 1.2rem;
+    }
+}
+
+.xplug {
+    max-width: 45vw;
+    display: block;
+    margin: auto;
+}
+
+.xplug a {
+    text-decoration: none;
+    color: #8d001a;
+}
+
+.twitter-timeline {
+    min-height: 40vh;
+    max-width: 40vw;
+    margin: auto;
+}
+
+@media (max-width: 1000px) {
+    .xplug {
+        max-width: 90vw;
+    }
+}
+

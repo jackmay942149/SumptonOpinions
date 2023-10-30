@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="icon" href="/branding/logo_white.PNG">
+    <title>Sumpton Opinions</title>
+</head>
+<body>
+    <div class="header">
+        <a href="/index.html"><img src="/branding/logo_sumpton_opinions.PNG" alt="Sumpton Opinion's Logo"></a>
+    </div>
+
+    <div class="navbar">
+        <a href="#1">ARCHIVE</a>
+        <a href="https://twitter.com/DanielTSumpton">X</a>
+        <a href="https://truthsocial.com/@DanielTSumpton">TRUTH SOCIAL</a>
+        <a href="https://sumptonnews.com/">SUMPTON NEWS</a>
+    </div>
+
+    <div class="featured_opinions">
+        <h1 style="text-decoration: underline; text-decoration-color: #E4002B;">FEATURED OPINIONS</h1>
+
+        <a href="/articles/2023/10oct/0610_what_we_can_learn_from.html">
+            <div class="featured_opinion dog">
+                <h1>WHAT WE CAN LEARN FROM STEVEN SEAGAL</h1>
+                <h1>06/10/2023</h1>
+            </div>
+        </a>
+
+        <a href="/articles/2023/09sep/1009_thr_lnp_is_in_need.html">
+            <div class="featured_opinion danny">
+                <h1>THE LNP IS IN NEED OF NEW LEADERS</h1>
+                <h1>10/09/2023</h1>
+            </div>
+        </a>
+
+        <a href="/articles/2023/09sep/0109_the_establishment_is_trying_to.html">
+            <div class="featured_opinion dog">
+                <h1>THE ESTABLISHMENT IS TRYING TO ERADICATE "MEN"</h1>
+                <h1>01/09/2023</h1>
+            </div>
+        </a>
+
+        <a href="/articles/2023/08aug/1508_the_leftist_assault_on_rural.html">
+            <div class="featured_opinion danny">
+                <h1>THE LEFTIST ASSAULT ON RURAL LIVING</h1>
+                <h1>15/08/2023</h1>
+            </div>
+        </a>
+
+        <div class="slideshow_buttons">
+            <a class="previous-comic" onclick="plusSlides(-1)">&#8249;</a>
+            <p>&#8203;</p>
+            <span class="slideshow_selector" onclick="currentSlide(1)"></span>
+            <span class="slideshow_selector" onclick="currentSlide(2)"></span>
+            <span class="slideshow_selector" onclick="currentSlide(3)"></span>
+            <span class="slideshow_selector" onclick="currentSlide(4)"></span>
+            <p>&#8203;</p>
+            <a class="next-comic" onclick="plusSlides(1)">&#8250;</a>
+        </div>
+
+        <script>
+            let slideIndex = 1;
+            showSlides();
+            autoChange(slideIndex);
+
+            // Next/previous controls
+            function plusSlides(n) {
+            showSlides(slideIndex += n);
+            }
+
+            // Thumbnail image controls
+            function currentSlide(n) {
+            showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("featured_opinion");
+            let dots = document.getElementsByClassName("slideshow_selector");
+            if (n > slides.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "flex";
+            dots[slideIndex-1].className += " active";
+            
+
+            }
+        </script>
+
+    </div>
+
+    <h1>ABOUT DANIEL SUMPTON</h1>
+    <div class="about_me">
+        
+        <div class="about-me-contents">
+            
+            <a href="#1">
+                <p>
+                    Founder of multiple news organisations and other Australian initiatives, 
+                    Daniel Sumpton writes highly anticipated columns every week. Mr Sumpton
+                    has become one of the nation’s most recognisable writers through founding
+                    journalistic publications and as a social and political commentator.
+                    Having also worked in media for some of the most well renowned politicians
+                    in the country, Mr Sumpton’s knowledge in political strategy has become a
+                    highlight of his articles. 
+                    <br>
+                    <br>
+                    You can check out his articles by clicking here.
+                </p>
+            </a>
+
+            <img src="/branding/attack_dog_port.jpg" alt="">
+        </div>
+    </div>
+
+    <h1>LATEST OPINIONS</h1>
+
+    <div id="1" class="latest-opinions">
+        
+        <div class="opinion">
+            <a href="/articles/2023/10oct/0610_what_we_can_learn_from.html">
+                <h2>WHAT WE CAN LEARN FROM STEVEN SEAGAL</h2>
+                <h2>06/10/2023</h2>
+            </a>
+        </div>
+
+        <div class="opinion">
+            <a href="/articles/2023/09sep/1009_thr_lnp_is_in_need.html">
+                <h2>THE LNP IS IN NEED OF NEW LEADERS</h2>
+                <h2>10/09/2023</h2>
+            </a>
+        </div>
+
+        <div class="opinion">
+            <a href="/articles/2023/09sep/0109_the_establishment_is_trying_to.html">
+                <h2>THE ESTABLISHMENT IS TRYING TO ERADICATE "MEN"</h2>
+                <h2>01/09/2023</h2>
+            </a>
+        </div>
+
+        <div class="opinion">
+            <a href="/articles/2023/08aug/1508_the_leftist_assault_on_rural.html">
+                <h2>THE LEFTIST ASSAULT ON RURAL LIVING</h2>
+                <h2>15/08/2023</h2>
+            </a>
+        </div>
+
+        <div class="opinion">
+            <a href="/articles/2023/08aug/0708_anthony_albanese_is_lying_about.html">
+                <h2>ANTHONY ALBANESE IS LYING ABOUT THE ECONOMY</h2>
+                <h2>07/08/2023</h2>
+            </a>
+        </div>
+
+        <div class="opinion">
+            <a href="/articles/2023/07jul/2907_the_war_on_tobacco_rages.html">
+                <h2>THE WAR ON TOBACCO RAGES ON</h2>
+                <h2>29/07/2023</h2>
+            </a>
+        </div>
+
+        <div class="opinion">
+            <a href="/articles/2023/07jul/2107_the_harsh_reality_about_the.html">
+                <h2>THE HARSH REALITY ABOUT THE NEWS</h2>
+                <h2>21/07/2023</h2>
+            </a>
+        </div>
+
+        <div class="opinion">
+            <a href="/articles/2023/07jul/1707_australians_need_to_support_truth.html">
+                <h2>AUSTRALIANS NEED TO SUPPORT TRUTH SOCIAL</h2>
+                <h2>17/07/2023</h2>
+            </a>
+        </div>
+
+        <div class="opinion">
+            <a href="/articles/2023/07jul/1407_the_albanese_government_wants_to.html">
+                <h2>THE ALBANESE GOVERNMENT WANTS TO CONTROL THE MEDIA LIKE THE CHINESE COMMUNIST PARTY</h2>
+                <h2>14/07/2023</h2>
+            </a>
+        </div>
+
+        <div class="opinion">
+            <a href="/articles/2023/07jul/1007_australias_future_has_been_thrown.html">
+                <h2>AUSTRALIA'S FUTURE HAS BEEN THROWN INTO QUESTION DUE TO SOCIAL MEDIA POSTS</h2>
+                <h2>10/07/2023</h2>
+            </a>
+        </div>
+        
+    </div>
+</body>
+</html>
