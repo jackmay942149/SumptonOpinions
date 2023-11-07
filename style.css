@@ -262,7 +262,9 @@ h1 {
 
 @media (max-width: 1000px) {
     .opinion {
-        max-width: 90vw;
+        max-width: 100vw;
+        min-width: 95vw;
+        padding: 2.5vw;
     }
 }
 
