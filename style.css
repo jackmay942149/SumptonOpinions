@@ -51,6 +51,10 @@ h1 {
     transition: 0.3s;
 }
 
+.navbar path {
+    transition: 0.3s;
+}
+
 @media (max-width: 1000px)
 {
     .navbar {
@@ -64,6 +68,10 @@ h1 {
 
 .navbar a:hover {
     color: #012169;
+}
+
+.navbar a:hover path{
+    fill: #012169;
 }
 
 .featured_opinions {
