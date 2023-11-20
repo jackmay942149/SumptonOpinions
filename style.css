@@ -335,3 +335,37 @@ h1 {
     }
 }
 
+.oafi h2{
+    color: #012169;
+    padding: 12px;
+}
+
+.oafi-opinion {
+    padding: 0px 16px;
+}
+
+.oafi-opinion h2{
+    font-size: 1.5rem;
+}
+
+.oafi-opinion a {
+    color: #012169;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.oafi-opinion a:hover {
+    color: #E4002B;
+}
+
+.oafi-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.oafi-gallery img {
+    max-width: 95vw;
+    padding: 8px;
+}
+
