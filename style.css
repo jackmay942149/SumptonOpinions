@@ -342,6 +342,16 @@ h1 {
 
 .oafi-opinion {
     padding: 0px 16px;
+    margin: 0px 8px;
+    background-color: #AAAAAA;
+    width: 50vw;
+}
+
+@media (max-width: 1000px)
+{
+    .oafi-opinion {
+        width: 90vw;
+    }
 }
 
 .oafi-opinion h2{
