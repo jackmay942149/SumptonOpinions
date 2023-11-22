@@ -339,16 +339,19 @@ h1 {
     color: #012169;
     padding: 12px;
     margin: 24px 60px;
+    text-align: center;
 }
 
 .oafi-opinion {
     padding: 0px 16px;
-    margin: 0px 8px;
+    margin: auto;
     background-color: #012169;
     max-width: 50vw;
     border-radius: 25px;
-    margin: 24px 60px;
     transition: 0.3s;
+    text-align: center;
+    display: block;
+
 }
 
 @media (max-width: 1000px)
