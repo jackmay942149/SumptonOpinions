@@ -251,21 +251,25 @@ h1 {
 
 .opinion {
     max-width: 20vw;
-    padding: 12px;   
+    padding: 12px;  
+    background-color: #012169; 
+    transition: 0.3s;
+    border-radius: 25px;
+    margin: 12px;
 }
 
 .opinion a {
-    color: #012169;
-    transition: 0.3s;
     text-decoration: none;
+    color: white;
 }
 
-.opinion a:hover {
-    color: #E4002B;
+.opinion:hover {
+    background-color: #E4002B;
 }
 
 .opinion h2 {
     font-size: 1.5rem;
+    margin: 4px 16px 16px;
 }
 
 @media (max-width: 1000px) {
