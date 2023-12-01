@@ -13,15 +13,86 @@
     </div>
 
     <div class="navbar">
-        <a href="/index.html">HOME</a>
-        <a href="https://twitter.com/DanielTSumpton">
-            <svg width="18" height="18" viewBox="0 0 1200 1227" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M714.163 519.284L1160.89 0H1055.03L667.137 450.887L357.328 0H0L468.492 681.821L0 1226.37H105.866L515.491 750.218L842.672 1226.37H1200L714.137 519.284H714.163ZM569.165 687.828L521.697 619.934L144.011 79.6944H306.615L611.412 515.685L658.88 583.579L1055.08 1150.3H892.476L569.165 687.854V687.828Z" fill="white"/>
-            </svg>
-        </a>
-        <a href="https://truthsocial.com/@DanielTSumpton">TRUTH SOCIAL</a>
-        <a href="https://sumptonnews.com/">SUMPTON NEWS</a>
+        <a href="/index.html">OPINIONS</a>
+
+        <div class="dropdown">
+            <a href="">NEWS</a>
+            <div class="dropdown-content dropdown-content-news">
+                <a href="https://sumptonnews.com/">SUMPTON NEWS</a>
+                <a href="https://www.sumptonsgoldrushgazette.com/">SUMPTON'S GOLD RUSH GAZETTE</a>
+                <a href="https://truthsocial.com/group/australians-for-truth">TRUTH SOCIAL'S "AUSTRALIANS FOR TRUTH"</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <a href="">SOCIALS</a>
+            <div class="dropdown-content dropdown-content-socials">
+                <a href="https://twitter.com/DanielTSumpton">
+                    <svg width="18" height="18" viewBox="0 0 1200 1227" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M714.163 519.284L1160.89 0H1055.03L667.137 450.887L357.328 0H0L468.492 681.821L0 1226.37H105.866L515.491 750.218L842.672 1226.37H1200L714.137 519.284H714.163ZM569.165 687.828L521.697 619.934L144.011 79.6944H306.615L611.412 515.685L658.88 583.579L1055.08 1150.3H892.476L569.165 687.854V687.828Z" fill="white"/>
+                    </svg>
+                </a>
+                <a href="https://truthsocial.com/@DanielTSumpton">TRUTH SOCIAL</a>
+            </div>
+        </div>
+
+        <a href="/oafi.html">OAFI</a>
     </div>
+
+    <div class="navbar-mobile">
+        <a href="javascript:void(0);" class="icon" onclick="mainFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+
+        <div id="main" class="main-dropdown">
+            <a href="/index.html">OPINIONS</a>
+            <a href="javascript:void(0);" onclick="newsFunction()">NEWS</a>
+            <div id="news" class="news-dropdown">
+                <a href="https://sumptonnews.com/">SUMPTON NEWS</a>
+                <a href="https://www.sumptonsgoldrushgazette.com/">SUMPTON'S GOLD RUSH GAZETTE</a>
+                <a href="https://truthsocial.com/group/australians-for-truth">TRUTH SOCIAL'S "AUSTRALIANS FOR TRUTH"</a>
+            </div>
+            <a href="javascript:void(0);" onclick="socialsFunction()">SOCIALS</a>
+            <div id="social" class="news-dropdown">
+                <a href="https://twitter.com/DanielTSumpton">
+                    <svg width="18" height="18" viewBox="0 0 1200 1227" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M714.163 519.284L1160.89 0H1055.03L667.137 450.887L357.328 0H0L468.492 681.821L0 1226.37H105.866L515.491 750.218L842.672 1226.37H1200L714.137 519.284H714.163ZM569.165 687.828L521.697 619.934L144.011 79.6944H306.615L611.412 515.685L658.88 583.579L1055.08 1150.3H892.476L569.165 687.854V687.828Z" fill="white"/>
+                    </svg>
+                </a>
+                <a href="https://truthsocial.com/@DanielTSumpton">TRUTH SOCIAL</a>
+            </div>
+            <a href="/oafi.html">OAFI</a>
+        </div>
+    </div>
+
+    <script>
+        function mainFunction() {
+            var x = document.getElementById("main");
+            if (x.style.display === "grid") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "grid";
+            }
+        }
+
+        function newsFunction() {
+            var x = document.getElementById("news");
+            if (x.style.display === "grid") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "grid";
+            }
+        }
+
+        function socialsFunction() {
+            var x = document.getElementById("social");
+            if (x.style.display === "grid") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "grid";
+            }
+        }
+    </script>
 
     <div class="article">
         <h1>OUTBACK AUSTRALIA'S PROFOUND HISTORY WITH ISRAEL</h1>
