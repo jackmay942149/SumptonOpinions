@@ -92,8 +92,8 @@ h1 {
     padding: 0px;
     z-index: 1;
     max-width: 400px;
-    margin-top: 38px;
-    margin-left: 280px;
+    margin-top: 46px;
+    margin-left: 260px;
 }
 
 .dropdown-content-socials {
@@ -104,12 +104,13 @@ h1 {
     padding: 0px;
     z-index: 1;
     max-width: 250px;
-    margin-top: 38px;
-    margin-left: 100px;
+    margin-top: 46px;
+    margin-left: 70px;
 }
 
 .dropdown-content a {
     float: left;
+    font-size: 1.5rem;
 }
 
 .dropdown:hover .dropdown-content {
