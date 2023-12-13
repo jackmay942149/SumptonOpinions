@@ -204,13 +204,13 @@ h1 {
 }
 
 .danny {
-    background-image: url("/branding/attack_dog_blank.JPG");
+    background-image: url("/branding/attack_dog_blank.webp");
     background-repeat: no-repeat;
     background-size: 100%;
 }
 
 .dog {
-    background-image: url("/branding/dog_blank.JPG");
+    background-image: url("/branding/dog_blank.webp");
     background-repeat: no-repeat;
     background-size: 100%;
 }
